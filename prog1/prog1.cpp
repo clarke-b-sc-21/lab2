@@ -1,4 +1,6 @@
 #include <iostream>
+#include <math.h>
+
 using namespace std;
 
 /*
@@ -18,14 +20,14 @@ int main() {
 
 double a,b,c,r1,r2;
 cout<< "Please enter the first coefficient: " << endl;
-cin>> a >> endl;
+cin>> a;
 cout<< "Please enter the second coefficient: " << endl;
-cin>> b>> endl;
+cin>> b;
 cout<< "Please enter the third coefficient: " << endl;
-cin>> c >> endl; 
+cin>> c; 
 
-  r1= ( (-b) + (sqrt( (b*b) - (4*a*c) ))  ) / (2*a)  
-  r2= ( (-b) - (sqrt( (b*b) - (4*a*c) ))  ) / (2*a)
+  r1= ( (-b) + (sqrt( (b*b) - (4*a*c) ))  ) / (2*a);  
+  r2= ( (-b) - (sqrt( (b*b) - (4*a*c) ))  ) / (2*a);
 
 cout<< " The first root is: "  << r1 << endl;
 cout<< " The second root is: "  << r2 << endl;
