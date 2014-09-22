@@ -1,0 +1,5 @@
+Author: Logan Clarke
+Lab Assignment #2
+Purpose: This program calculates the roots of a quadratic equation using 
+the infamous quadratic formula. It asks the user for three coefficients (a,b, & c);
+and displays the two roots. 

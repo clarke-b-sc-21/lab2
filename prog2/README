@@ -1,0 +1,6 @@
+Author: Logan Clarke
+Lab Assignment #2
+Purpose: This program calculates the amount of paint needed to paint a given area. 
+It asks the user for the dimensions of the surface as well as the coverage in sq ft 
+per gallon for the given area. It will output the amount of paint needed to paint the
+surface (rounded up)* to the nearest gallon. 

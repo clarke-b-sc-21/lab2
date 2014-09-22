@@ -17,18 +17,21 @@ and displays the two roots.
 int main() {
 
 
-
+//Attain the coefficients from the user
 double a,b,c,r1,r2;
-cout<< "Please enter the first coefficient: " << endl;
+cout<< "Please enter the first coefficient: " <<endl;
 cin>> a;
 cout<< "Please enter the second coefficient: " << endl;
 cin>> b;
 cout<< "Please enter the third coefficient: " << endl;
 cin>> c; 
 
-  r1= ( (-b) + (sqrt( (b*b) - (4*a*c) ))  ) / (2*a);  
-  r2= ( (-b) - (sqrt( (b*b) - (4*a*c) ))  ) / (2*a);
 
+//Calculate the roots of the quadratic equation given by the coefficients
+  r1= (  (-b) + (sqrt( (b*b) - (4*a*c) ))  ) / ( (2*a)  );  
+  r2= (  (-b) - (sqrt( (b*b) - (4*a*c) ))  ) / ( (2*a)  );
+
+//Display the roots once calculated
 cout<< " The first root is: "  << r1 << endl;
 cout<< " The second root is: "  << r2 << endl;
 
